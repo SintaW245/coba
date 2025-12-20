@@ -3,10 +3,9 @@
 session_start();
 
 // Konfigurasi API Sightengine
-define('API_USER', '154002814'); // Ganti dengan API User Anda
-define('API_SECRET', 'fa5Vs6VvTbmfh2gqiYAH5TAatb4MDvA2'); // Ganti dengan API Secret Anda
+define('API_USER', '154002814'); 
+define('API_SECRET', 'fa5Vs6VvTbmfh2gqiYAH5TAatb4MDvA2'); 
 
-// Ambil pesan dari session jika ada
 $message = isset($_SESSION['message']) ? $_SESSION['message'] : '';
 $messageType = isset($_SESSION['message_type']) ? $_SESSION['message_type'] : '';
 unset($_SESSION['message'], $_SESSION['message_type']);
@@ -389,8 +388,8 @@ unset($_SESSION['message'], $_SESSION['message_type']);
             </div>
 
             <div class="navigation">
-                <a href="history.php" class="nav-link">📊 Riwayat Deteksi</a>
-                <a href="about.php" class="nav-link">ℹ️ Tentang</a>
+                <a href="" >📊 Riwayat Deteksi</a>
+                <a href="" >ℹ️ Tentang</a>
             </div>
         </div>
     </div>
